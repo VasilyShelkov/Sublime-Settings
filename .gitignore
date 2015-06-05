@@ -1,0 +1,15 @@
+Installed Packages/*
+Local/*
+Packages/bz2/*
+Packages/HTML/*
+Packages/PyV8/*
+Packages/Rails/*
+Packages/Seti_UI/*
+Packages/SublimeCodeIntel/*
+Packages/SublimeLinter/*
+Packages/SublimeLinter-contrib-eslint/*
+Packages/User/PackageControl.cache/*
+Packages/User/bh_unicode_properties.cache
+Packages/User/Package Control.last-run
+Packages/User/Package Control.cache/01524fae79697630d0454ba3fabd9414
+*.info
