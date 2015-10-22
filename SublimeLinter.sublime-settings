@@ -17,7 +17,9 @@
         "no_column_highlights_line": false,
         "passive_warnings": false,
         "paths": {
-            "linux": [],
+            "linux": [
+                "/home/vasily/.nvm/v0.12.7/bin"
+            ],
             "osx": [],
             "windows": []
         },

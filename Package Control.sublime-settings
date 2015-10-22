@@ -1,4 +1,5 @@
 {
+	"bootstrapped": true,
 	"in_process_packages":
 	[
 	],
@@ -14,6 +15,7 @@
 		"Material Color Scheme",
 		"Material Theme",
 		"Package Control",
+		"Riot Tag",
 		"Seti_UI",
 		"SideBarEnhancements",
 		"SublimeCodeIntel",
