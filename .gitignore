@@ -1,17 +1,17 @@
 Backup/*
 Installed Packages/*
 Local/*
-Packages/Babel/*
-Packages/bz2/*
-Packages/HTML/*
-Packages/PyV8/*
-Packages/Rails/*
-Packages/Seti_UI/*
-Packages/SublimeCodeIntel/*
-Packages/SublimeLinter/*
-Packages/SublimeLinter-contrib-eslint/*
-Packages/User/PackageControl.cache/*
-Packages/User/bh_unicode_properties.cache
-Packages/User/Package Control.last-run
-Packages/User/Package Control.cache/01524fae79697630d0454ba3fabd9414
+Babel/*
+bz2/*
+HTML/*
+PyV8/*
+Rails/*
+Seti_UI/*
+SublimeCodeIntel/*
+SublimeLinter/*
+SublimeLinter-contrib-eslint/*
+Package\ Control.cache/*
+bh_unicode_properties.cache
+Package\ Control.last-run
+Package\ Control.cache/01524fae79697630d0454ba3fabd9414
 *.info
