@@ -1,0 +1,26 @@
+<snippet>
+	<content><![CDATA[
+import expect from 'expect';
+import expectJSX from 'expect-jsx';
+import TestUtils from 'react-addons-test-utils';
+import React from 'react';
+import ${TM_FILENAME/(.+)\..+/$1/} from './${TM_FILENAME/(.+)\..+/$1/}'
+expect.extend(expectJSX);
+
+describe(${TM_FILENAME/(.+)\..+/$1/}, () => {
+	it('should render', () => {
+		const renderer = TestUtils.createRenderer();
+		renderer.render(<${TM_FILENAME/(.+)\..+/$1/} $2=$3 />);
+		
+		const actual = renderer.getRenderOutput();
+		const expected = <${4:div}>$3</${4:div}>;
+		
+		expect(actual).toIncludeJSX(expected);
+	});
+});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>rspec</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>
