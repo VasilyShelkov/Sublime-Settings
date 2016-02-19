@@ -1,0 +1,27 @@
+<snippet>
+	<content><![CDATA[
+import expect from 'expect';
+import deepFreeze from 'deep-freeze';
+import ${TM_FILENAME/(.*?)\..*/$1/} from './${TM_FILENAME/(.*?)\..*/$1/}'
+
+describe(${TM_FILENAME/(.*?)\..*/$1/}, () => {
+	it('should $2', () => {
+		const stateBefore = [];
+		const action = {
+			type: '$3',
+		};
+
+		const stateAfter = [];
+		
+		deepFreeze(stateBefore);
+		deepFreeze(action);
+
+		expect(${TM_FILENAME/(.*?)\..*/$1/}(stateBefore, action)).toEqual(stateAfter);
+	});
+});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>reducerspec</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>
