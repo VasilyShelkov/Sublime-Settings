@@ -3,10 +3,12 @@
 import React, { Component } from 'react';
 
 const ${TM_FILENAME/(.+)\..+|.*/$1/} = () => {
-	<div>
-		${2:Content}
-	</div>
-}
+	return(
+		<div>
+			${2:Content}
+		</div>
+	);
+};
 
 export default ${TM_FILENAME/(.+)\..+|.*/$1/};
 ]]></content>
